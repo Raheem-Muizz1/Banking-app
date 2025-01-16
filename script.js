@@ -139,6 +139,9 @@ btnLogin.addEventListener(`click`, function (e) {
       currentAccount.owner.split(` `)[0]
     }`;
     containerApp.style.opacity = 100;
+    inputLoginUsername.style.opacity = 0;
+    inputLoginPin.style.opacity = 0;
+    btnLogin.style.opacity = 0;
 
     //Clear input field
     inputLoginUsername.value = inputLoginPin.value = ``;
